@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+:root {
+    --heading-font: "Oswald";
+    --paragraph-font: 'Oswald', sans-serif;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +13,7 @@
 nav a {
     color: #554640;
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -30,6 +38,10 @@ main section {
 
 body {
     background-color: #554640;
+    margin: 0;
+    padding: 0;
+    font-family: var(--heading-font);
+    font-size: 22px;
 }
 
 header {
@@ -41,13 +53,25 @@ nav a:hover {
 }
 
 .book {
-    color: #8DA7BE;
-    background-color: #554640;
+    color: #d9c2a3;
+    background-color: #197DC2;
+    font-family: var(--heading-font);
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .join {
     color: #554640;
-    background-color: #197DC2;
+    background-color: #d9c2a3;
+    font-family: var(--heading-font);
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .book:hover {
@@ -66,11 +90,20 @@ nav a:hover {
 
 .msg {
     background-color: #197DC2;
+    padding: 35px;
+    line-height: 1.5em;
 }
 
 footer {
     color: #8DA7BE;
     background-color: #554640;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+}
+
+.social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -85,6 +118,9 @@ footer a:hover{
 
 .home-title {
     color: #E1CA96;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -97,6 +133,9 @@ h4 {
 
 .msg p {
     color:#554640;
+    font-family: var(--heading-font);
+    padding-bottom: 15px;
+    font-size: 16px;
 }
 
 #hero-img {
@@ -105,8 +144,37 @@ h4 {
 
 .logo {
     width: 80px;
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+h2 {
+    margin: 0;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
 }
