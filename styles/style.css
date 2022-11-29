@@ -285,3 +285,79 @@ h2 {
         margin-top: 25px;
     }
 }
+.book-body {
+}
+
+.reservation-body {
+    display :grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(7, [col] 1fr);
+    grid-template-rows: repeat(4, [row] auto);
+    background-color:#554640;
+    color:#8DA7BE;
+    padding: 20px;
+
+}
+
+.book-img {
+    grid-column: col / span 3;
+    grid-row: row / span 4;
+    width: 100%;
+}
+
+.book-head {
+    grid-column: col 5/ span 2;
+    grid-row: row;
+    text-align: center;
+}
+
+.reservation {
+    grid-column: col 5/ span 2;
+    grid-row: row 2/ span 2;
+    display :grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(6, [row] 16.6%);
+    background-color:#6f7364;
+    color:#d9c2a3;
+}
+
+.sdatet {
+    grid-column: col 2/ span 2;
+    grid-row: row 2;
+}
+
+.sdatec {
+    grid-column: col 4/ span 2;
+    grid-row: row 2;
+}
+
+.edatet {
+    grid-column: col 2/ span 2;
+    grid-row: row 3;
+}
+
+.edatec {
+    grid-column: col 4/ span 2;
+    grid-row: row 3;
+}
+
+.partyt {
+    grid-column: col 2/ span 2;
+    grid-row: row 4;
+}
+
+.partyc {
+    grid-column: col 4/ span 2;
+    grid-row: row 4;
+}
+
+.reserve {
+    grid-column: col 3/ span 2;
+    grid-row: row 5/ span 2;
+}
+
+.book-p {
+    grid-column: col 4/ span 4;
+    grid-row: row 4;
+}
