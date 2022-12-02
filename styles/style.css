@@ -352,10 +352,39 @@ h2 {
 
 .reserve {
     grid-column: col 3/ span 2;
-    grid-row: row 5/ span 2;
+    grid-row: row 5/ span 1;
 }
 
 .book-p {
     grid-column: col 4/ span 4;
     grid-row: row 4;
+}
+
+.lower-stuff {
+    display :grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 1fr);
+    background-color:#8DA7BE;
+    color:#554640;
+    padding: 40px;
+}
+
+.river-img {
+  width: 60%;
+}
+
+.l1 {
+  text-align: center;
+  margin-left: -100px;
+  margin-right: 100px;
+}
+
+.camping-img {
+  width: 60%;
+}
+
+.l2 {
+  text-align: center;
+  margin-left: -100px;
+  margin-right: 100px;
 }
