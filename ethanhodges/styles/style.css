@@ -6,21 +6,28 @@
 }
 
 .logo {
-  width: 80px;
-  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
 }
 
 .ref-img {
     width: 50em;
-  }
+}
 
-  #logo_link {
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
 
-
+  nav {
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    align-self: left;
+    
+}
 
   header {
     background-color:#c2c1a5;
