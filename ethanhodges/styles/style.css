@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+:root {
+  --heading-font: 'Playfair Display', weight 600;
+  --paragraph-font: 'Playfair Display', serif;
+}
+
+.logo {
+  width: 80px;
+  padding-top: 10px;
+}
+
 .ref-img {
     width: 50em;
   }
+
+  #logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+  header {
+    background-color:#c2c1a5;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
