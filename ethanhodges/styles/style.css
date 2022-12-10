@@ -59,8 +59,6 @@ p {
 #section_1 {
   grid-column: 1/6;
   grid-row: 1/2;
-  color: #f5f9e9;
-  background-color: #515751;
 }
 
 #home_img_2 {
@@ -79,8 +77,6 @@ p {
 #home_p_2 {
   grid-column: 5/11;
   grid-row: 2/3;
-  color: #f5f9e9;
-  background-color: #515751;
 }
 
 #home_title {
@@ -132,4 +128,61 @@ footer {
   width: 100%;
   grid-column: 3/4;
   grid-row: 2/3;
+}
+
+.section {
+  color: #f5f9e9;
+  background-color: #515751;
+}
+
+#faq_main {
+  padding-top: 5px;
+  display :grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(4, [row] auto);
+  grid-template-columns: repeat(3, [col] 1fr);
+}
+
+.post {
+  padding-top: 5px;
+  display :grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, [col] 1fr);
+  grid-template-rows: repeat(1, [row] auto);
+}
+
+.nufaq_img {
+  width: 100px;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.post_p {
+  grid-row: 1/2;
+  grid-column: 3/6;
+}
+
+#faq_title {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+#faq_thing {
+  grid-row: 1/2;
+  grid-column: 2/7;
+}
+
+#post_1 {
+  grid-row: 2/3;
+  grid-column: 1/7;
+}
+
+#post_2 {
+  grid-row: 3/4;
+  grid-column: 1/7;
+}
+
+#post_3 {
+  grid-row: 4/5;
+  grid-column: 1/7;
 }
